@@ -323,7 +323,7 @@ section a {
 
 .hamburger-top,
 .hamburger-middle,
-.hamberger-bottom {
+.hamburger-bottom {
     position: absolute;
     top: 0;
     left: 0;
@@ -340,6 +340,18 @@ section a {
 
 .hamburger-bottom {
     transform: translateY(14px);
+}
+
+.open .hamburger-top {
+    
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+
 }
 
 @media (min-width: 1440px) {
