@@ -123,6 +123,10 @@ section a {
     margin-top: 20px;
 }
 
+.box-f .box-text {
+    max-width: 600px;
+}
+
 /* Grid Styles */
 .grid-col-2 {
     display: grid;
